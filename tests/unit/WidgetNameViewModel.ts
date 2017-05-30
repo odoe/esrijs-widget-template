@@ -14,7 +14,7 @@ registerSuite({
   afterEach() {
     viewModel = null;
   },
-  render() {
+  "name is valid"() {
     assert.equal(viewModel.name, "Slagathor");
   }
 });

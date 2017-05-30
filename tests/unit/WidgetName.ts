@@ -10,7 +10,7 @@ registerSuite({
   },
   afterEach() {
   },
-  render() {
+  "render"() {
     assert.isNotNull(<%name%>);
   }
 });
