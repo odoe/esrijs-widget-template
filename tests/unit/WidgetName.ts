@@ -10,7 +10,7 @@ registerSuite({
   },
   afterEach() {
   },
-  "render"() {
+  "widget is valid"() {
     assert.isNotNull(<%name%>);
   }
 });
