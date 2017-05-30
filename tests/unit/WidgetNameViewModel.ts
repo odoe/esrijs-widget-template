@@ -7,7 +7,7 @@ import <%name%>ViewModel from "../../../app/widgets/<%name%>/<%name%>ViewModel";
 let viewModel = null;
 
 registerSuite({
-  name: "<%name%>,
+  name: "<%name%>",
   beforeEach() {
     viewModel = new <%name%>ViewModel();
   },
