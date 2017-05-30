@@ -5,7 +5,7 @@ import { spy, SinonSpy } from "sinon";
 import <%name%> from "../../../app/widgets/<%name%>";
 
 registerSuite({
-  name: "<%name%>,
+  name: "<%name%>",
   beforeEach() {
   },
   afterEach() {
