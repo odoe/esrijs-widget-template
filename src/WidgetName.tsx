@@ -9,11 +9,10 @@ import { aliasOf, subclass, declared } from "esri/core/accessorSupport/decorator
 import { renderable, jsxFactory } from "esri/widgets/support/widget";
 
 const CSS = {
-  base: "esri-widget esri-component <%name%>-base"
+  base: "esri-widget <%name%>-base"
 };
 
-
-@subclass()
+@subclass("app.widgets.<%name%>")
 class <%name%> extends declared(Widget) {
 
   @aliasOf("viewModel.name")
