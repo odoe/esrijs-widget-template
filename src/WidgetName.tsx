@@ -9,7 +9,7 @@ import { aliasOf, subclass, declared } from "esri/core/accessorSupport/decorator
 import { renderable, jsxFactory } from "esri/widgets/support/widget";
 
 const CSS = {
-  base: "esri-widget <%name%>-base"
+  base: "esri-widget <%name-lower%>-base"
 };
 
 @subclass("app.widgets.<%name%>")
