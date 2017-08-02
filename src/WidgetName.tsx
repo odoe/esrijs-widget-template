@@ -6,7 +6,9 @@ import Widget = require("esri/widgets/Widget");
 import <%name%>ViewModel from "./<%name%>/<%name%>ViewModel";
 
 import { aliasOf, subclass, declared } from "esri/core/accessorSupport/decorators";
-import { renderable, jsxFactory } from "esri/widgets/support/widget";
+import { renderable, tsx } from "esri/widgets/support/widget";
+
+import * as i18n from "dojo/i18n!./<%name%>/nls/<%name%>";
 
 const CSS = {
   base: "esri-widget <%name-lower%>-base"
@@ -28,7 +30,7 @@ class <%name%> extends declared(Widget) {
     return (
       <div class={CSS.base}>
         <p>
-          Welcome {this.name}!
+          i18n.welcome {this.name}!
         </p>
       </div>
     );
@@ -36,4 +38,4 @@ class <%name%> extends declared(Widget) {
 
 }
 
-export default <%name%>;
+export = <%name%>;

@@ -9,7 +9,7 @@ import { subclass, declared, property } from "esri/core/accessorSupport/decorato
 class <%name%>ViewModel extends declared(Accessor) {
 
   @property()
-  name = "Slagathor"
+  name = "Slagathor";
 
   constructor() {
     super();
